@@ -1,0 +1,11 @@
+export { default as Bath } from "./Bath/Bath";
+export { default as ChangeBed } from "./ChangeBed/ChangeBed";
+export { default as Emotions } from "./Emotions/Emotions";
+export { default as FoodDrink } from "./FoodDrink/FoodDrink";
+export { default as InclineBed } from "./InclineBed/InclineBed";
+export { default as LayDown } from "./LayDown/LayDown";
+export { default as NeedMedicine } from "./NeedMedicine/NeedMedicine";
+export { default as NurseOrDoctor } from "./NurseOrDoctor/NurseOrDoctor";
+export { default as Pain } from "./Pain/Pain";
+export { default as SitUp } from "./SitUp/SitUp";
+export { default as Tv } from "./Tv/Tv";
