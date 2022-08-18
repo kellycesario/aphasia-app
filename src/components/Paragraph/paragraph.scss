@@ -1,0 +1,14 @@
+.paragraph {
+  font-size: 4.3rem;
+  font-weight: 700;
+
+  &--small {
+    font-size: 3.1rem;
+    font-weight: 500;
+  }
+
+  &--big {
+    font-size: 18rem;
+    font-weight: 700;
+  }
+}
