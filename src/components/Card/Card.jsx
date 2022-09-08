@@ -1,10 +1,11 @@
 import "./card.scss";
+import Paragraph from "../Paragraph/Paragraph";
 
-export default function Card({ icon, title }) {
+export default function Card({ icon, title, size }) {
   return (
-    <div className="card">
+    <button className="card">
       {icon && <span>{icon}</span>}
-      <p>{title}</p>
-    </div>
+      <Paragraph text={title} size={size} />
+    </button>
   );
 }
