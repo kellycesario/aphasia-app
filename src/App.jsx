@@ -1,9 +1,9 @@
 import "./styles/global.scss";
-import Card from "./components/Card/Card";
+import CardsWrapper from "./components/CardsWrapper/CardsWrapper";
 function App() {
   return (
     <div className="App">
-      <Card title="bla bla bla" />
+      <CardsWrapper />
     </div>
   );
 }
