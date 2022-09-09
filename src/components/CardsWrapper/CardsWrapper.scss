@@ -1,0 +1,17 @@
+.cardsWrapper {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  max-width: 1024px;
+  margin: 0 auto;
+  height: 100%;
+
+  // &__row {
+  //   display: flex;
+  //   justify-content: space-evenly;
+  //   align-items: center;
+  //   display: grid;
+  //   grid-template-columns: 1fr 1fr 1fr;
+  // }
+}
