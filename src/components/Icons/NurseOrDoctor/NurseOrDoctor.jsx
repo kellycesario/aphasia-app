@@ -1,10 +1,10 @@
-export default function NurseOrDoctor() {
+export default function NurseOrDoctor({ size }) {
   return (
     <svg
-      width="110"
-      height="109"
+      width={size}
+      height={size}
       viewBox="0 0 110 109"
-      fill="none"
+      fill="#22202A"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path

@@ -1,10 +1,10 @@
-export default function NeedMedicine() {
+export default function NeedMedicine({ size }) {
   return (
     <svg
-      width="98"
-      height="98"
+      width={size}
+      height={size}
       viewBox="0 0 98 98"
-      fill="none"
+      fill="#22202A"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path

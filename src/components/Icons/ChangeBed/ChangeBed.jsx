@@ -1,10 +1,10 @@
-export default function ChangeBed() {
+export default function ChangeBed({ size }) {
   return (
     <svg
-      width="112"
-      height="112"
+      width={size}
+      height={size}
       viewBox="0 0 112 112"
-      fill="none"
+      fill="#22202A"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
