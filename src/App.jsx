@@ -1,10 +1,10 @@
 import "./styles/global.scss";
-import CardsWrapper from "./components/CardsWrapper/CardsWrapper";
+import LoginPage from "./components/LoginPage";
 function App() {
   return (
-    <div className="App">
-      <CardsWrapper />
-    </div>
+    <main className="App">
+      <LoginPage />
+    </main>
   );
 }
 
