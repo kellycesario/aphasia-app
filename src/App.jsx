@@ -1,6 +1,6 @@
 import "./styles/global.scss";
-import LoginPage from "./components/LoginPage";
-import CardsWrapper from './components/CardsWrapper'
+import LoginPage from "./pages/Login"
+import CardsWrapper from './components/organisms/CardsWrapper'
 function App() {
   return (
     <main className="App">

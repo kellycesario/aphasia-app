@@ -6,12 +6,12 @@
     background-color: #22202a;
     padding: 5rem;
     border-radius: 15px;
-    
+
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    
+
     font-size: 3rem;
   }
   &__input {
@@ -70,7 +70,6 @@
   }
 
   &__forgotPassword {
-    
     &:link {
       color: #fff;
     }
@@ -82,7 +81,6 @@
     }
     &:active {
       color: #fff;
-
     }
   }
 }

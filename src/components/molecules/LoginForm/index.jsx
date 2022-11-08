@@ -1,26 +1,28 @@
 import "./styles.scss";
 import { Label } from "@radix-ui/react-label";
+import Input from "../../atoms/Input";
 
 export default function LoginForm() {
   return (
     <section>
       <form action="" className="loginForm__form">
-        <Label htmlFor="e-mail" className="loginForm__label">
-          E-mail
-        </Label>
-
-        <input
-          className="loginForm__input"
-          type="text"
+        <Input
           id="e-mail"
+          label="E-mail"
+          type="e-mail"
           placeholder="johndoe@email.com"
+          classLabelName="loginForm__label"
+          classInputName="loginForm__input"
         />
 
-        <Label htmlFor="password" className="loginForm__label">
-          Password
-        </Label>
-
-        <input className="loginForm__input" type="password" id="password" />
+        <Input
+          id="password"
+          label="Password"
+          type="password"
+          placeholder=""
+          classLabelName="loginForm__label"
+          classInputName="loginForm__input"
+        />
 
         <a className="loginForm__forgotPassword" href="#">
           Forgot password

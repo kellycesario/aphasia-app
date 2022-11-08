@@ -1,4 +1,4 @@
-import Card from "../Card/";
+import Card from "../../molecules/Card";
 import "./styles.scss";
 import {
   Bath,
@@ -12,7 +12,7 @@ import {
   Pain,
   SitUp,
   Tv,
-} from "../Icons";
+} from "../../atoms/Icons";
 
 export default function CardsWrapper() {
   return (
