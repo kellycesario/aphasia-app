@@ -10,18 +10,18 @@ export default function Pain({ size }) {
       <path
         d="M29.4223 78.9377C26.7656 80.3885 23.7487 81.2499 20.5067 81.2499C10.2852 81.2499 2 72.908 2 62.6165V41.8523H31.2685"
         stroke="#22202A"
-        stroke-width="4"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="4"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M31.2685 41.8523H2V21.1334C2 10.842 10.2852 2.5 20.5067 2.5C25.5949 2.5 30.2328 4.58551 33.5649 7.94043C36.897 11.2954 38.9684 15.965 38.9684 21.0881V32.4676"
         stroke="#22202A"
-        stroke-width="4"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="4"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M8.79833 48.3353C9.74274 48.3353 10.5084 47.564 10.5084 46.6126C10.5084 45.6611 9.74274 44.8898 8.79833 44.8898C7.85393 44.8898 7.08838 45.6611 7.08838 46.6126C7.08838 47.564 7.85393 48.3353 8.79833 48.3353Z"
@@ -62,18 +62,18 @@ export default function Pain({ size }) {
       <path
         d="M37.1221 34.7345L50.3154 18.776C56.8445 10.8874 68.5069 9.79932 76.3418 16.3732C84.1767 22.947 85.2574 34.6892 78.7283 42.5778L65.535 58.5363L37.1221 34.7345Z"
         stroke="#22202A"
-        stroke-width="4"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="4"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M23.9737 50.6476L37.122 34.7344L65.535 58.5362L52.3867 74.4494C45.8576 82.338 34.1952 83.4261 26.3603 76.8522C22.4428 73.5426 20.1913 68.9636 19.7861 64.2486C19.3358 59.5336 20.6867 54.5919 23.9737 50.6476Z"
         stroke="#22202A"
-        stroke-width="4"
-        stroke-miterlimit="10"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="4"
+        strokeMiterlimit="10"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M63.3276 52.1888C64.272 52.1888 65.0376 51.4175 65.0376 50.466C65.0376 49.5146 64.272 48.7433 63.3276 48.7433C62.3832 48.7433 61.6177 49.5146 61.6177 50.466C61.6177 51.4175 62.3832 52.1888 63.3276 52.1888Z"

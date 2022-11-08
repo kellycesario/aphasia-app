@@ -1,5 +1,5 @@
-import "./card.scss";
-import Paragraph from "../Paragraph/Paragraph";
+import "./styles.scss";
+import Paragraph from "../Paragraph/";
 
 export default function Card({ icon, title, size }) {
   return (
