@@ -9,6 +9,11 @@ export default defineConfig({
     alias: {
       "@icons": resolve(__dirname, "src", "components", "icons"),
       "@components": resolve(__dirname, "src", "components"),
+      "@atoms": resolve(__dirname, "src", "components", "atoms"),
+      "@molecules": resolve(__dirname, "src", "components", "molecules"),
+      "@organisms": resolve(__dirname, "src", "components", "organisms"),
+      "@styles": resolve(__dirname, "src", "styles"),
+      "@pages": resolve(__dirname, "src", "pages")
     },
   },
 });
