@@ -23,3 +23,10 @@ export { default as Skin } from "./BodyParts/Skin";
 export { default as Stomach } from "./BodyParts/Stomach";
 export { default as Throat } from "./BodyParts/Throat";
 export { default as Tooth } from "./BodyParts/Tooth";
+
+export { default as Bored } from './Emotions/Bored';
+export { default as Happy } from './Emotions/Happy';
+export { default as InPain } from './Emotions/InPain';
+export { default as Sad } from './Emotions/Sad';
+export { default as Surprised } from './Emotions/Surprised';
+export { default as Tired } from './Emotions/Tired';
