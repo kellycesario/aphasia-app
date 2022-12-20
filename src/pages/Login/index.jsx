@@ -1,6 +1,6 @@
 import { useState } from "react";
-import CardsWrapper from "../../components/organisms/CardsWrapper"
-import LoginForm from '../../components/molecules/LoginForm'
+import CardsWrapper from "@organisms/CardsWrapper"
+import LoginForm from '@molecules/LoginForm'
 
 export default function LoginPage() {
   const [isAuth, setIsAuth] = useState(false)

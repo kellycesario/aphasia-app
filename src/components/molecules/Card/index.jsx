@@ -1,5 +1,5 @@
 import "./styles.scss";
-import Paragraph from "../../atoms/Paragraph";
+import Paragraph from "@atoms/Paragraph";
 
 export default function Card({ icon, title, size }) {
   return (
