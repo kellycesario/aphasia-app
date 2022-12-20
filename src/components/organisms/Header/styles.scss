@@ -1,0 +1,51 @@
+.mainHeader {
+  width: 100%;
+  background-color: black;
+  color: white;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 144rem;
+    padding: 4rem 1.9rem;
+  }
+
+  &__logo {
+    font-size: 3rem;
+    line-height: 111%;
+    font-weight: 700;
+  }
+
+  &__list {
+    display: none;
+    list-style: none;
+    padding: 12rem 6rem 0;
+
+    &--active {
+      display: block;
+      position: fixed;
+      right: 0;
+      top: 0;
+      height: 100vh;
+      background-color: black;
+    }
+  }
+
+  &__item {
+    font-size: 2rem;
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__toggle {
+    position: relative;
+    z-index: 999;
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    background-color: transparent;
+  }
+}
