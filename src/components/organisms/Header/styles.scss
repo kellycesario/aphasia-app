@@ -63,6 +63,11 @@
         margin-right: 2.4rem;
       }
     }
+
+    &:hover,
+    &:active {
+      outline: 3px solid white;
+    }
   }
 
   &__toggle {
