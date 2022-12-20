@@ -1,6 +1,5 @@
 import "./styles.scss";
-import { Label } from "@radix-ui/react-label";
-import Input from "../../atoms/Input";
+import Input from "@atoms/Input";
 
 export default function LoginForm() {
   return (
