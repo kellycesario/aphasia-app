@@ -1,0 +1,23 @@
+.mainHeader {
+  &__item {
+    font-size: 2rem;
+
+    @media screen and (min-width: 1080px) {
+      font-size: 2.6rem;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+
+      @media screen and (min-width: 1080px) {
+        margin-bottom: 0rem;
+        margin-right: 2.4rem;
+      }
+    }
+
+    &:hover,
+    &:active {
+      outline: 3px solid white;
+    }
+  }
+}
