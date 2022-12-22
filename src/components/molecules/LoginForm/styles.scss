@@ -1,16 +1,26 @@
 .login {
   &__form {
     width: 100%;
+    padding: 0 3rem;
+
+    @media screen and (min-width: 750px) {
+      padding: 0;
+    }
   }
 
   &__button {
     width: 100%;
     border: none;
-    height: 8rem;
-    font-size: 4rem;
+    height: 6rem;
+    font-size: 3rem;
     line-height: 111%;
     text-align: center;
     background-color: black;
     color: white;
+
+    @media screen and (min-width: 750px) {
+      height: 8rem;
+      font-size: 4rem;
+    }
   }
 }

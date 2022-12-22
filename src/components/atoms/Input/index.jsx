@@ -5,8 +5,7 @@ export default function Input({ id, label, type, placeholder }) {
   return (
     <div className="login__input">
       <Label htmlFor={id} className="login__label">
-        {' '}
-        {label}{' '}
+        {label}
       </Label>
       <input
         id={id}
