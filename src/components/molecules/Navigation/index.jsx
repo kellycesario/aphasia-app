@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './styles.scss';
-import NavigationItem from '../../atoms/NavigationItem';
+import { NavigationItem } from '@atoms';
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

@@ -1,6 +1,5 @@
 import React from 'react';
-import Input from '@atoms/Input';
-import TextArea from '@atoms/TextArea';
+import { TextArea, Input } from '@atoms';
 import './styles.scss';
 
 const ContactForm = () => {
@@ -23,7 +22,7 @@ const ContactForm = () => {
         <TextArea id="message" label="Message" />
       </div>
       <button className="contact__button" role="button">
-        Send Message
+        Send Message{' '}
       </button>
     </form>
   );
