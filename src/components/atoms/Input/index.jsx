@@ -1,10 +1,19 @@
-import { Label } from "@radix-ui/react-label";
+import { Label } from '@radix-ui/react-label';
+import './styles.scss';
 
-export default function Input({ id, classLabelName, label, classInputName, type, placeholder }) {
+export default function Input({ id, label, type, placeholder }) {
   return (
-    <>
-      <Label htmlFor={id} className={classLabelName}> {label} </Label>
-      <input id={id} className={classInputName} type={type} placeholder={placeholder} />
-    </>
+    <div className="login__input">
+      <Label htmlFor={id} className="login__label">
+        {' '}
+        {label}{' '}
+      </Label>
+      <input
+        id={id}
+        type={type}
+        placeholder={placeholder}
+        className="login__field"
+      />
+    </div>
   );
 }

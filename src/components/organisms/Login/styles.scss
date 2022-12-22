@@ -1,0 +1,32 @@
+.login {
+  max-width: 50rem;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  &__header {
+    margin-bottom: 3rem;
+  }
+
+  &__title {
+    font-size: 6rem;
+    line-height: 111%;
+    text-align: center;
+  }
+
+  &__main {
+    margin-bottom: 2rem;
+  }
+
+  &__footer {
+    text-align: center;
+  }
+
+  &__link {
+    font-size: 3.5rem;
+    color: #000;
+    text-decoration: none;
+  }
+}
