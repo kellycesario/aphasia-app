@@ -1,7 +1,8 @@
 import React from 'react';
+import { Login } from '@organisms';
 
 const LoginPage = () => {
-  return <div>LoginPage</div>;
+  return <Login />;
 };
 
 export default LoginPage;

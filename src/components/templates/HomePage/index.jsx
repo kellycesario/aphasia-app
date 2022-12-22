@@ -1,7 +1,13 @@
 import React from 'react';
+import { CardsWrapper } from '@organisms';
+import Layout from '../../../layout';
 
 const HomePage = () => {
-  return <div>HomePage</div>;
+  return (
+    <Layout>
+      <CardsWrapper />
+    </Layout>
+  );
 };
 
 export default HomePage;
