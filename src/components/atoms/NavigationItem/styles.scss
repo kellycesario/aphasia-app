@@ -1,6 +1,8 @@
 .mainHeader {
   &__item {
     font-size: 2rem;
+    color: white;
+    text-decoration: none;
 
     @media screen and (min-width: 1080px) {
       font-size: 2.6rem;

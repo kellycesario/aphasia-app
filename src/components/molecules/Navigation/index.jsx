@@ -17,10 +17,10 @@ const Navigation = () => {
         }`}
         aria-expanded={isMenuOpen}
       >
-        <NavigationItem title="Home" />
-        <NavigationItem title="About Us" />
-        <NavigationItem title="Contact" />
-        <NavigationItem title="Settings" />
+        <NavigationItem to="/" title="Home" />
+        <NavigationItem to="/" title="About Us" />
+        <NavigationItem to="/contact" title="Contact" />
+        <NavigationItem to="/" title="Settings" />
       </ul>
       <button className="mainHeader__toggle" onClick={onToggleHandler}>
         <img src="/assets/img/Toggle.svg" alt="toggle menu" />
