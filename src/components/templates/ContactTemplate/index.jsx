@@ -1,8 +1,8 @@
 import React from 'react';
-import { Contact } from '@organisms';
+import { Contact } from '../../organisms';
 import Layout from '../../../layout';
 
-const ContactPage = () => {
+const ContactTemplate = () => {
   return (
     <Layout>
       <Contact />
@@ -10,4 +10,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage;
+export default ContactTemplate;

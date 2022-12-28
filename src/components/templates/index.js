@@ -1,3 +1,3 @@
-export { default as ContactPage } from './ContactPage';
-export { default as HomePage } from './HomePage';
-export { default as LoginPage } from './LoginPage';
+export { default as ContactTemplate } from './ContactTemplate';
+export { default as HomeTemplate } from './HomeTemplate';
+export { default as LoginTemplate } from './LoginTemplate';

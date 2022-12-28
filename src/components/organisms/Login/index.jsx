@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.scss';
 
-import { LoginForm } from '@molecules';
+import { LoginForm } from '../../molecules';
 
 const Login = () => {
   return (

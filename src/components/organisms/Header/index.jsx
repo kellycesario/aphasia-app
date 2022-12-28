@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.scss';
-import { Navigation } from '@molecules';
+import { Navigation } from '../../molecules';
 
 const Header = () => {
   return (

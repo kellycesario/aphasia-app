@@ -1,5 +1,5 @@
 import './styles.scss';
-import { Paragraph } from '@atoms';
+import { Paragraph } from '../../LoginTemplateatoms';
 
 export default function Card({ icon, title, size }) {
   return (

@@ -1,8 +1,8 @@
 import React from 'react';
-import { CardsWrapper } from '@organisms';
+import { CardsWrapper } from '../../organisms';
 import Layout from '../../../layout';
 
-const HomePage = () => {
+const HomeTemplate = () => {
   return (
     <Layout>
       <CardsWrapper />
@@ -10,4 +10,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default HomeTemplate;
