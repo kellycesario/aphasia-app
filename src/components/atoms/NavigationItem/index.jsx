@@ -1,12 +1,11 @@
 import React from 'react';
-import './styles.scss';
-import { Link } from 'react-router-dom';
+//import './styles.scss';
 
 const NavigationItem = ({ title, to }) => {
   return (
-    <Link to={to} className="mainHeader__item">
+    <a href={to} className="mainHeader__item">
       <li>{title}</li>
-    </Link>
+    </a>
   );
 };
 

@@ -1,0 +1,61 @@
+.login {
+  max-width: 50rem;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  &__header {
+    margin-bottom: 1rem;
+  }
+
+  &__title {
+    font-size: 4rem;
+    line-height: 111%;
+    text-align: center;
+  }
+
+  &__main {
+    margin-bottom: 2rem;
+  }
+
+  &__footer {
+    text-align: center;
+  }
+
+  &__link {
+    font-size: 2.6rem;
+    color: #000;
+    text-decoration: none;
+
+    @media screen and (min-width: 750px) {
+      font-size: 3.5rem;
+    }
+  }
+
+  &__form {
+    width: 100%;
+    padding: 0 3rem;
+
+    @media screen and (min-width: 750px) {
+      padding: 0;
+    }
+  }
+
+  &__button {
+    width: 100%;
+    border: none;
+    height: 6rem;
+    font-size: 3rem;
+    line-height: 111%;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+    @media screen and (min-width: 750px) {
+      height: 8rem;
+      font-size: 4rem;
+    }
+  }
+}

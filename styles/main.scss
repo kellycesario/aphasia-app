@@ -1,3 +1,10 @@
-@import 'global/variables.css';
-
 @use 'global/base';
+
+@use 'components/contact';
+@use 'components/login';
+@use 'components/mainHeader';
+@use 'components/input';
+@use 'components/paragraph';
+@use 'components/textArea';
+@use 'components/card';
+@use 'components/cardsWrapper';

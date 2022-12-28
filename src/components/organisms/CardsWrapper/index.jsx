@@ -1,5 +1,5 @@
 import { Card } from '../../molecules';
-import './styles.scss';
+//import './styles.scss';
 import {
   Bath,
   ChangeBed,

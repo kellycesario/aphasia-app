@@ -1,4 +1,4 @@
-import './styles.scss';
+//import './styles.scss';
 import { Input } from '../../atoms';
 
 export default function LoginForm() {

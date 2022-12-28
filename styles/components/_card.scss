@@ -1,0 +1,14 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid var(--black);
+  height: 100%;
+  width: 100%;
+  padding: 2rem 0;
+  &:focus {
+    outline: var(--pain-008) solid 4px;
+  }
+}
