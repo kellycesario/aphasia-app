@@ -1,7 +1,7 @@
 import "./styles.scss";
-export default function Paragraph({ text, size }) {
+export default function Paragraph({ text }) {
   return (
-    <p className={"paragraph" + " " + `paragraph--${size ? size : ""}`}>
+    <p className="paragraph">
       {text}
     </p>
   );
