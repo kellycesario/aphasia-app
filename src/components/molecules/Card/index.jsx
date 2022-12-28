@@ -1,10 +1,10 @@
-import './styles.scss';
-import { Paragraph } from '@atoms';
+import "./styles.scss";
+import { Paragraph } from "@atoms";
 
 export default function Card({ icon, title, size }) {
   return (
     <button className="card">
-      {icon && <span>{icon}</span>}
+      {icon && <span className="card__icon">{icon}</span>}
       <Paragraph text={title} size={size} />
     </button>
   );
