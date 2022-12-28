@@ -1,9 +1,17 @@
 .cardsWrapper {
   display: grid;
   grid-auto-rows: 1fr;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   justify-items: center;
-  max-width: 1024px;
+  max-width: 1440px;
   margin: 0 auto;
-  height: 100%;
+  height: 100vh;
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
