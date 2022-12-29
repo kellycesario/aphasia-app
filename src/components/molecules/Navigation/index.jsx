@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-//import './styles.scss';
+
 import { NavigationItem } from '../../atoms';
 
 const Navigation = () => {

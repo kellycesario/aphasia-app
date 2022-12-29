@@ -1,5 +1,4 @@
 import { Label } from '@radix-ui/react-label';
-//import './styles.scss';
 
 export default function TextArea({ id, label }) {
   return (

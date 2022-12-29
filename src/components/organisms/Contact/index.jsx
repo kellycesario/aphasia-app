@@ -1,6 +1,5 @@
 import React from 'react';
 import { ContactForm } from '../../molecules';
-//import './styles.scss';
 
 const Contact = () => {
   return (

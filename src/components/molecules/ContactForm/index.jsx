@@ -1,6 +1,5 @@
 import React from 'react';
 import { TextArea, Input } from '../../atoms';
-//import './styles.scss';
 
 const ContactForm = () => {
   return (

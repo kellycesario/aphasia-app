@@ -1,4 +1,3 @@
-//import './styles.scss';
 import { Paragraph } from '../../atoms';
 
 export default function Card({ icon, title, size }) {
