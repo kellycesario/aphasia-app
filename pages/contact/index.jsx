@@ -1,5 +1,5 @@
 import React from 'react';
-import { ContactTemplate } from '../../src/components/templates';
+import { ContactTemplate } from '../../components/templates';
 
 const ContactPage = () => {
   return <ContactTemplate />;

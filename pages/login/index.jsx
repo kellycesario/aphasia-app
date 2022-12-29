@@ -1,5 +1,5 @@
 import React from 'react';
-import { LoginTemplate } from '../../src/components/templates';
+import { LoginTemplate } from '../../components/templates';
 
 const LoginPage = () => {
   return <LoginTemplate />;
