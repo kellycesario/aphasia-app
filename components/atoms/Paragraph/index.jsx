@@ -1,7 +1,3 @@
-export default function Paragraph({ text, size }) {
-  return (
-    <p className={'paragraph' + ' ' + `paragraph--${size ? size : ''}`}>
-      {text}
-    </p>
-  );
+export default function Paragraph({ text }) {
+  return <p className="paragraph">{text}</p>;
 }
